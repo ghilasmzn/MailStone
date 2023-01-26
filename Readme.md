@@ -8,6 +8,10 @@ Ainsi il est utile de partir des documents pour alimenter la base de données, p
 
 L’objectif du projet est ainsi de traiter
 
-1. L’extraction de donnée à partir de texte
+1. L’extraction de données à partir d'un mail.
 2. La conception et l’alimentation d’une base de données
-3. La génération de contenus structurés dédiés à des applications métiers
+3. La génération de contenus structurés dédiés à des applications métiers.
+
+
+##Description de MailStone: 
+MailStone est une application permettant d'analyser les mails reçus sur une boite mail appartenant à une entreprise, afin d'aider son service après vente à traiter les plaintes des clients reçues par mail.
