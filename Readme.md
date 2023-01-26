@@ -13,5 +13,5 @@ L’objectif du projet est ainsi de traiter
 3. La génération de contenus structurés dédiés à des applications métiers.
 
 
-##Description de MailStone: 
+## Description de MailStone: 
 MailStone est une application permettant d'analyser les mails reçus sur une boite mail appartenant à une entreprise, afin d'aider son service après vente à traiter les plaintes des clients reçues par mail.
