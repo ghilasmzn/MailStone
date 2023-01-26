@@ -1,0 +1,7 @@
+<!ELEMENT question (issue)>
+<!ATTLIST question code CDATA #REQUIRED>
+<!ELEMENT issue (descritpion|product)>
+<!ELEMENT descritpion (#PCDATA)>
+<!ELEMENT product (client)>
+<!ELEMENT client (email)>
+<!ELEMENT email (#PCDATA)>

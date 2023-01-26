@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE issue SYSTEM "C:\Users\Administrateur\Desktop\PROJECT MAILSTONE\2app\communication\DTD\save\save.dtd">
+<issue code="s000">
+    <product>
+        <ref>000</ref>
+        <date>22-11-2022</date>
+        <name>reference</name>
+        <brand>toshiba</brand>
+        <category>
+            <name/>
+        </category>
+        <client>
+            <firstname>mailstone2022@gmail.com</firstname>
+            <lastname/>
+            <email/>
+            <address/>
+            <phoneNumber/>
+        </client>
+    </product>
+    <description>Mon pc affiche un écran noir  il ne s allume plus   </description>
+    <resolved>false</resolved>
+    <solution>
+        <description/>
+        <cost/>
+        <duration/>
+    </solution>
+</issue>

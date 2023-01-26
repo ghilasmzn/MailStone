@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="/css/home.css" />
+
+    <title>MailStone</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>MailStone</h1>
+    </div>
+    <div class="left-nav-bar">
+      <h2>Home</h2>
+      <div class="container-tabs">
+        <a class="tab-active" href="#"
+          ><div class="product-tab">Produits</div>
+        </a>
+
+        <a class="tab" data-th-href="@{/client}"
+          ><div class="product-tab">Client</div>
+        </a>
+
+        <a class="tab" data-th-href="@{/issue}"
+          ><div class="product-tab">Panne</div>
+        </a>
+
+        <a class="tab" href="#"><div class="product-tab">Solution</div> </a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="message-container">
+        <a class="msg" data-th-href="@{/product/qst/ref-date}">
+          <div class="message-product">Date de panne et référence</div>
+        </a>
+        <a class="msg-search" data-th-href="@{/product/qst/ref-date}">
+          <div class="icone-search"><i class="bi bi-search"></i></div>
+        </a>
+      </div>
+
+      <div class="message-container">
+        <a class="msg" data-th-href="@{/product/qst/ref-brand}">
+          <div class="message-product">Marque et référence</div>
+        </a>
+        <a class="msg-search" data-th-href="@{/product/qst/ref-brand}">
+          <div class="icone-search"><i class="bi bi-search"></i></div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

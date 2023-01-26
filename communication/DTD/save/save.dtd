@@ -1,0 +1,19 @@
+<!ELEMENT issue (product|description|resolved|solution)>
+<!ATTLIST issue code CDATA #REQUIRED>
+<!ELEMENT product (ref|date|name|brand|category|client)>
+<!ELEMENT ref (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT category (name)>
+<!ELEMENT client (firstname|lastname|email|address|phoneNumber)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT resolved (#PCDATA)>
+<!ELEMENT solution (description|cost|duration)*>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>

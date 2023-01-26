@@ -1,0 +1,5 @@
+<!ELEMENT question (product)>
+<!ATTLIST question code CDATA #REQUIRED>
+<!ELEMENT product (ref|brand)>
+<!ELEMENT ref (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>

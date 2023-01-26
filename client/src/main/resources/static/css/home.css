@@ -1,0 +1,167 @@
+body {
+    background-color: #F2F2F2;
+    font-family: 'Times New Roman', Times, serif !important;
+
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    background-color: #003d5e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-nav-bar {
+    height: 100vh;
+    width: 18%;
+    background-color: #003d5e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.content {
+    margin-left: 18%; /* Same as the width of the left-nav-bar */
+    margin-top: 100px;
+}
+
+.container-tabs {
+    height: 75%;
+    width: 100%;
+}
+
+a.tab-active {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a.tab {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a.tab-active >.product-tab {
+    margin-top: 55px;
+    background-color: #1c90ce;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 75px
+}
+
+a.tab > .product-tab:hover {
+    background-color: #0870a8;
+    font-size: 22px;
+}
+
+a.tab > .product-tab {
+    margin-top: 55px;
+    background-color: #005C8F;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 75px
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+a.msg {
+    color: white;
+    
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: bolder;
+
+    width: 45%;
+}
+
+.message-product {
+    background-color: #005C8F;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+    
+    border-radius: 30px;
+    border: 2.5px solid white;
+
+    height: 55px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.message-product:hover, .icone-search:hover {
+    background-color: #0072af;
+}
+
+a.msg-search {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    margin-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icone-back:hover {
+    background-color: #b30404;
+}
+
+.icone-back {
+    background-color: #8F0000;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+
+    border-radius: 8px;
+
+    width: 50px;
+    height: 50px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icone-search {
+    background-color: #005C8F;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+
+    border-radius: 8px;
+
+    width: 50px;
+    height: 50px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

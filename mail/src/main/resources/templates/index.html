@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="/css/home.css" />
+    <script type="text/javascript" src="/js/roller.js"></script>
+
+    <title>MailStone</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>MailStone</h1>
+    </div>
+    <div class="content">
+      <div class="form-container">
+        <form
+          class="mail-form"
+          data-th-action="@{/send-email}"
+          onsubmit="displayRoller()"
+          method="POST"
+        >
+          <label for="pruduct">Descritpion du produit *</label>
+          <textarea
+            type="text"
+            placeholder="Marque du produit, référence ... "
+            name="product"
+            required
+          ></textarea>
+
+          <label for="issue">Description de la panne *</label>
+          <textarea type="text" name="issue" required></textarea>
+
+          <input
+            id="submitForm"
+            type="submit"
+            class="submit-btn"
+            value="Envoyer"
+          />
+        </form>
+
+        <div id="roller" class="lds-roller">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
